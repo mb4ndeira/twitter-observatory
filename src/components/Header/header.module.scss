@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 1024px;
+    padding: 24px;
+
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 1.8rem;
+    font-weight: 500;
+
+    color: var(--blue);
+
+    img {
+        margin-right: 10px;
+
+        width: 32px;
+        height: 32px;
+    }
+
+    span {
+        color: var(--extra-light-gray);
+    }
+}
