@@ -6,7 +6,7 @@ import styles from "./tweet.module.scss"
 export default function Tweet() {
     return (
         <div className={styles.tweet}>
-            <img src="" alt="" />
+            <img className={styles.avatar} src="/images/logo.png" alt="username" />
             <div>
                 <div className={styles.heading}>
                     <div>

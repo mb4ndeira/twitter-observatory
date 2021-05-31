@@ -13,6 +13,7 @@ export default function TweetList() {
             </div>
             <section className={styles.tweets}>
                 <Tweet />
+                <Tweet />
             </section>
         </div>
     )
