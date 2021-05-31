@@ -5,7 +5,7 @@ export default function Header() {
         <header className={styles.header}>
             <a className={styles.logo} href="/">
                 <img src="/images/logo.png" alt="" />
-                <h2>twitter<span>_observer</span></h2>
+                <h2>twitter<span>_observatory</span></h2>
             </a>
             {/* <SignInButton /> */}
         </header>
