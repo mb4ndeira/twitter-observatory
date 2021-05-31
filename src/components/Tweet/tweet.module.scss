@@ -1,0 +1,38 @@
+.tweet {
+    font-size: 1.6rem;
+    font-weight: 300;
+
+    border-top: 1px solid var(--light-black);
+
+    .heading {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            p {
+                display: inline-flex;
+                align-items: center;
+
+                margin-left: 6px;
+
+                color: var(--light-gray);
+            }
+        }
+
+        .optionsButton {
+            color: var(--dark-gray);
+        }
+    }
+
+    .message {
+        margin-top: 5px;
+    }
+}
+
+.tweet:first-of-type {
+    border-top: none;
+}

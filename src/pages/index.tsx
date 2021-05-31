@@ -2,7 +2,7 @@ import Head from 'next/head'
 
 import HashtagsInput from '../components/HashtagsInput'
 import Hashtags from '../components/Hashtags'
-import Tweets from '../components/Tweets'
+import TweetList from '../components/TweetList'
 
 import styles from './main.module.scss'
 
@@ -14,7 +14,7 @@ export default function Home() {
         <h1> Monitore tweets a partir de <span>#hashtags</span></h1>
         <HashtagsInput />
         <Hashtags />
-        <Tweets />
+        <TweetList />
       </main>
     </>
   )
